@@ -24,16 +24,6 @@ export function GlobalStyle() {
                 flex: 1
             }
             /* ./App fit Height */
-              
-            *::-webkit-scrollbar {
-                width: 9px;               /* width of the entire scrollbar */
-            }
-              
-            *::-webkit-scrollbar-thumb {
-                background-color: #212931;    /* color of the scroll thumb */
-                border-radius: 20px;       /* roundness of the scroll thumb */
-            }
-              
             `}
         </style>
     );
@@ -42,9 +32,9 @@ export function GlobalStyle() {
 
 export default function MyApp({ Component, pageProps }) {
     console.log('Roda em todas as paginas');
-    return (
+    return ( 
         <>
-            <GlobalStyle />
+            <GlobalStyle/>
             <Component {...pageProps} />
         </>
     );

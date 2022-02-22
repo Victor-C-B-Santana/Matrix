@@ -80,8 +80,7 @@ export default function PaginaInicial() {
                                 infosDoEvento.preventDefault();
                                 console.log("Alguém submeteu o form");
                                 if(username.length > 2){
-                                    // roteamento.push('/chat?username=' + username);
-                                    roteamento.push(`/chat?username=${username}`);
+                                    roteamento.push('/chat');
                                 }
                                 
 
